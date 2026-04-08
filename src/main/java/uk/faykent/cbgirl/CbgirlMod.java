@@ -1,6 +1,8 @@
 package uk.faykent.cbgirl;
 
 import uk.faykent.cbgirl.network.CbgirlModVariables;
+import uk.faykent.cbgirl.init.CbgirlModTabs;
+import uk.faykent.cbgirl.init.CbgirlModItems;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -33,11 +35,22 @@ public class CbgirlMod {
 	public static final String MODID = "cbgirl";
 
 	public CbgirlMod(IEventBus modEventBus) {
+		// Start of user code block mod constructor
+		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 
+		CbgirlModItems.REGISTRY.register(modEventBus);
+
+		CbgirlModTabs.REGISTRY.register(modEventBus);
 		CbgirlModVariables.ATTACHMENT_TYPES.register(modEventBus);
+
+		// Start of user code block mod init
+		// End of user code block mod init
 	}
+
+	// Start of user code block mod methods
+	// End of user code block mod methods
 	private static boolean networkingRegistered = false;
 	private static final Map<CustomPacketPayload.Type<?>, NetworkMessage<?>> MESSAGES = new HashMap<>();
 
