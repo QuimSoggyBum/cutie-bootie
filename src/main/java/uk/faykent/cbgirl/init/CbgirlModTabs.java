@@ -25,6 +25,10 @@ public class CbgirlModTabs {
 			tabData.accept(CbgirlModItems.DIAPER_CAMMIE_PINK_A_USED_LEGGINGS.get());
 			tabData.accept(CbgirlModItems.DIAPER_CAMMIE_BLUE_A_LEGGINGS.get());
 			tabData.accept(CbgirlModItems.DIAPER_CAMMIE_BLUE_A_USED_LEGGINGS.get());
+			tabData.accept(CbgirlModItems.DIAPER_SKULL_A_LEGGINGS.get());
+			tabData.accept(CbgirlModItems.DIAPER_SKULL_A_USED_LEGGINGS.get());
+			tabData.accept(CbgirlModItems.DIAPER_PRIDEV_1_A_LEGGINGS.get());
+			tabData.accept(CbgirlModItems.DIAPER_PRIDEV_1_A_USED_LEGGINGS.get());
 		}
 	}
 }

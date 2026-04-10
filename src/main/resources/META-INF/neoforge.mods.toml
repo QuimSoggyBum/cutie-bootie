@@ -6,8 +6,17 @@ license="All Rights Reserved"
 modId="cbgirl"
 version="0.0.0.1"
 displayName="Cutie Bootie"
-displayURL="N/A"
-credits="To all the ABDL's and Diaper users"
+displayURL="https://google.com"
+credits="All ABDL and diaper lovers, enjoy our cute diapers"
+authors="QuimSogguBum"
+description="This is a Add-on for NappyCraft, We add ABDL related diapers"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
 
 [[dependencies.cbgirl]]
     modId="neoforge"
@@ -22,3 +31,9 @@ credits="To all the ABDL's and Diaper users"
     versionRange="[1.21.1]"
     ordering="AFTER"
     side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

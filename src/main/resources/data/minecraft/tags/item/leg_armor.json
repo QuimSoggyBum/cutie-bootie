@@ -1,9 +1,13 @@
 {
   "replace": false,
   "values": [
+    "cbgirl:diaper_pridev_1_a_leggings",
     "cbgirl:diaper_cammie_pink_a_leggings",
+    "cbgirl:diaper_skull_a_used_leggings",
     "cbgirl:diaper_cammie_pink_a_used_leggings",
     "cbgirl:diaper_cammie_blue_a_leggings",
-    "cbgirl:diaper_cammie_blue_a_used_leggings"
+    "cbgirl:diaper_cammie_blue_a_used_leggings",
+    "cbgirl:diaper_pridev_1_a_used_leggings",
+    "cbgirl:diaper_skull_a_leggings"
   ]
 }
