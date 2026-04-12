@@ -23,5 +23,17 @@
   "item.cbgirl.diaper_pridev_1_used.description_0": "These Diapers Cutie Bootie Originals",
   "item.cbgirl.diaper_pridev_1_used": "Cutie Booties Pride V1 Used",
   "item.cbgirl.diaper_pridev_1_a_leggings": "Cutie Bootie Pride V1 Diaper ",
-  "item.cbgirl.diaper_pridev_1_a_used_leggings": "Cutie Bootie Pride V1 Diaper"
+  "item.cbgirl.diaper_pridev_1_a_used_leggings": "Cutie Bootie Pride V1 Diaper",
+  "item.cbgirl.diaper_classico.description_0": "These Diapers are based on Bambino Classico\u0027s Diapers",
+  "item.cbgirl.diaper_classico": "Classico V2",
+  "item.cbgirl.diaper_classico_used": "Classico V2 Used",
+  "item.cbgirl.diaper_classico_used.description_0": "These Diapers are based on Bambino Classico\u0027s Diapers",
+  "item.cbgirl.diaper_classico_a_leggings": "Classico V2 Diaper ",
+  "item.cbgirl.diaper_classico_a_used_leggings": "Classico V2 Diaper",
+  "item.cbgirl.diaper_bio_mass.description_0": "These Diapers are from Cutie Bootie",
+  "item.cbgirl.diaper_bio_mass": "Cutie Bootie Bio-Mass",
+  "item.cbgirl.diaper_bio_mass_used.description_0": "These Diapers are from Cutie Bootie",
+  "item.cbgirl.diaper_bio_mass_used": "Classico V2 Used",
+  "item.cbgirl.diaper_bio_mass_a_leggings": "Cutie Bootie Bio-Mass Diaper ",
+  "item.cbgirl.diaper_bio_mass_a_used_leggings": "Cutie Bootie Bio-Mass Diaper"
 }

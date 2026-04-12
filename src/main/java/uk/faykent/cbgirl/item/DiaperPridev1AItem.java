@@ -5,6 +5,8 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
@@ -26,12 +28,12 @@ public abstract class DiaperPridev1AItem extends ArmorItem {
 	public static void registerArmorMaterial(RegisterEvent event) {
 		event.register(Registries.ARMOR_MATERIAL, registerHelper -> {
 			ArmorMaterial armorMaterial = new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-				map.put(ArmorItem.Type.BOOTS, 2);
-				map.put(ArmorItem.Type.LEGGINGS, 5);
-				map.put(ArmorItem.Type.CHESTPLATE, 6);
-				map.put(ArmorItem.Type.HELMET, 2);
-				map.put(ArmorItem.Type.BODY, 6);
-			}), 9, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("cbgirl:pridev1"))), 0f, 0f);
+				map.put(ArmorItem.Type.BOOTS, 0);
+				map.put(ArmorItem.Type.LEGGINGS, 15);
+				map.put(ArmorItem.Type.CHESTPLATE, 0);
+				map.put(ArmorItem.Type.HELMET, 0);
+				map.put(ArmorItem.Type.BODY, 0);
+			}), 54, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(new ItemStack(Items.PAPER)), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("cbgirl:pridev1"))), 3f, 0.3f);
 			registerHelper.register(ResourceLocation.parse("cbgirl:diaper_pridev_1_a"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});

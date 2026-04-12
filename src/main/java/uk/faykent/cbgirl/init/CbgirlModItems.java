@@ -11,6 +11,10 @@ import uk.faykent.cbgirl.item.DiaperPridev1UsedItem;
 import uk.faykent.cbgirl.item.DiaperPridev1Item;
 import uk.faykent.cbgirl.item.DiaperPridev1AUsedItem;
 import uk.faykent.cbgirl.item.DiaperPridev1AItem;
+import uk.faykent.cbgirl.item.DiaperClassicoUsedItem;
+import uk.faykent.cbgirl.item.DiaperClassicoItem;
+import uk.faykent.cbgirl.item.DiaperClassicoAUsedItem;
+import uk.faykent.cbgirl.item.DiaperClassicoAItem;
 import uk.faykent.cbgirl.item.DiaperCammiePinkUsedItem;
 import uk.faykent.cbgirl.item.DiaperCammiePinkItem;
 import uk.faykent.cbgirl.item.DiaperCammiePinkAUsedItem;
@@ -19,6 +23,10 @@ import uk.faykent.cbgirl.item.DiaperCammieBlueUsedItem;
 import uk.faykent.cbgirl.item.DiaperCammieBlueItem;
 import uk.faykent.cbgirl.item.DiaperCammieBlueAUsedItem;
 import uk.faykent.cbgirl.item.DiaperCammieBlueAItem;
+import uk.faykent.cbgirl.item.DiaperBioMassUsedItem;
+import uk.faykent.cbgirl.item.DiaperBioMassItem;
+import uk.faykent.cbgirl.item.DiaperBioMassAUsedItem;
+import uk.faykent.cbgirl.item.DiaperBioMassAItem;
 import uk.faykent.cbgirl.CbgirlMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -44,6 +52,14 @@ public class CbgirlModItems {
 	public static final DeferredItem<Item> DIAPER_PRIDEV_1_USED = REGISTRY.register("diaper_pridev_1_used", DiaperPridev1UsedItem::new);
 	public static final DeferredItem<Item> DIAPER_PRIDEV_1_A_LEGGINGS = REGISTRY.register("diaper_pridev_1_a_leggings", DiaperPridev1AItem.Leggings::new);
 	public static final DeferredItem<Item> DIAPER_PRIDEV_1_A_USED_LEGGINGS = REGISTRY.register("diaper_pridev_1_a_used_leggings", DiaperPridev1AUsedItem.Leggings::new);
+	public static final DeferredItem<Item> DIAPER_CLASSICO = REGISTRY.register("diaper_classico", DiaperClassicoItem::new);
+	public static final DeferredItem<Item> DIAPER_CLASSICO_USED = REGISTRY.register("diaper_classico_used", DiaperClassicoUsedItem::new);
+	public static final DeferredItem<Item> DIAPER_CLASSICO_A_LEGGINGS = REGISTRY.register("diaper_classico_a_leggings", DiaperClassicoAItem.Leggings::new);
+	public static final DeferredItem<Item> DIAPER_CLASSICO_A_USED_LEGGINGS = REGISTRY.register("diaper_classico_a_used_leggings", DiaperClassicoAUsedItem.Leggings::new);
+	public static final DeferredItem<Item> DIAPER_BIO_MASS = REGISTRY.register("diaper_bio_mass", DiaperBioMassItem::new);
+	public static final DeferredItem<Item> DIAPER_BIO_MASS_USED = REGISTRY.register("diaper_bio_mass_used", DiaperBioMassUsedItem::new);
+	public static final DeferredItem<Item> DIAPER_BIO_MASS_A_LEGGINGS = REGISTRY.register("diaper_bio_mass_a_leggings", DiaperBioMassAItem.Leggings::new);
+	public static final DeferredItem<Item> DIAPER_BIO_MASS_A_USED_LEGGINGS = REGISTRY.register("diaper_bio_mass_a_used_leggings", DiaperBioMassAUsedItem.Leggings::new);
 	// Start of user code block custom items
 	// End of user code block custom items
 }

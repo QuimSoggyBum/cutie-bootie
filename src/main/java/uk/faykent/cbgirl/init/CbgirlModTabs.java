@@ -29,6 +29,10 @@ public class CbgirlModTabs {
 			tabData.accept(CbgirlModItems.DIAPER_SKULL_A_USED_LEGGINGS.get());
 			tabData.accept(CbgirlModItems.DIAPER_PRIDEV_1_A_LEGGINGS.get());
 			tabData.accept(CbgirlModItems.DIAPER_PRIDEV_1_A_USED_LEGGINGS.get());
+			tabData.accept(CbgirlModItems.DIAPER_CLASSICO_A_LEGGINGS.get());
+			tabData.accept(CbgirlModItems.DIAPER_CLASSICO_A_USED_LEGGINGS.get());
+			tabData.accept(CbgirlModItems.DIAPER_BIO_MASS_A_LEGGINGS.get());
+			tabData.accept(CbgirlModItems.DIAPER_BIO_MASS_A_USED_LEGGINGS.get());
 		}
 	}
 }

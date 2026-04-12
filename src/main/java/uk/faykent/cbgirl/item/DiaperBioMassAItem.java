@@ -5,6 +5,8 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
@@ -19,7 +21,7 @@ import java.util.List;
 import java.util.EnumMap;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
-public abstract class DiaperSkullAUsedItem extends ArmorItem {
+public abstract class DiaperBioMassAItem extends ArmorItem {
 	public static Holder<ArmorMaterial> ARMOR_MATERIAL = null;
 
 	@SubscribeEvent
@@ -27,23 +29,23 @@ public abstract class DiaperSkullAUsedItem extends ArmorItem {
 		event.register(Registries.ARMOR_MATERIAL, registerHelper -> {
 			ArmorMaterial armorMaterial = new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
 				map.put(ArmorItem.Type.BOOTS, 0);
-				map.put(ArmorItem.Type.LEGGINGS, 5);
+				map.put(ArmorItem.Type.LEGGINGS, 15);
 				map.put(ArmorItem.Type.CHESTPLATE, 0);
 				map.put(ArmorItem.Type.HELMET, 0);
 				map.put(ArmorItem.Type.BODY, 0);
-			}), 54, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("cbgirl:used_white_skull"))), 3f, 0.3f);
-			registerHelper.register(ResourceLocation.parse("cbgirl:diaper_skull_a_used"), armorMaterial);
+			}), 54, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(new ItemStack(Items.PAPER)), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("cbgirl:bio"))), 3f, 0.3f);
+			registerHelper.register(ResourceLocation.parse("cbgirl:diaper_bio_mass_a"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
 	}
 
-	public DiaperSkullAUsedItem(ArmorItem.Type type, Item.Properties properties) {
+	public DiaperBioMassAItem(ArmorItem.Type type, Item.Properties properties) {
 		super(ARMOR_MATERIAL, type, properties);
 	}
 
-	public static class Leggings extends DiaperSkullAUsedItem {
+	public static class Leggings extends DiaperBioMassAItem {
 		public Leggings() {
-			super(ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(5)));
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)));
 		}
 	}
 }

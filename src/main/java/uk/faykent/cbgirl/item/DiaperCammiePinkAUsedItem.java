@@ -26,12 +26,12 @@ public abstract class DiaperCammiePinkAUsedItem extends ArmorItem {
 	public static void registerArmorMaterial(RegisterEvent event) {
 		event.register(Registries.ARMOR_MATERIAL, registerHelper -> {
 			ArmorMaterial armorMaterial = new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-				map.put(ArmorItem.Type.BOOTS, 2);
+				map.put(ArmorItem.Type.BOOTS, 0);
 				map.put(ArmorItem.Type.LEGGINGS, 5);
-				map.put(ArmorItem.Type.CHESTPLATE, 6);
-				map.put(ArmorItem.Type.HELMET, 2);
-				map.put(ArmorItem.Type.BODY, 6);
-			}), 9, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("cbgirl:used_cammies_pink_"))), 0f, 0f);
+				map.put(ArmorItem.Type.CHESTPLATE, 0);
+				map.put(ArmorItem.Type.HELMET, 0);
+				map.put(ArmorItem.Type.BODY, 0);
+			}), 54, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("cbgirl:used_cammies_pink_"))), 3f, 0.3f);
 			registerHelper.register(ResourceLocation.parse("cbgirl:diaper_cammie_pink_a_used"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
@@ -43,7 +43,7 @@ public abstract class DiaperCammiePinkAUsedItem extends ArmorItem {
 
 	public static class Leggings extends DiaperCammiePinkAUsedItem {
 		public Leggings() {
-			super(ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)));
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(5)));
 		}
 	}
 }

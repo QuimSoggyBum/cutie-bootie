@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.EnumMap;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
-public abstract class DiaperSkullAUsedItem extends ArmorItem {
+public abstract class DiaperBioMassAUsedItem extends ArmorItem {
 	public static Holder<ArmorMaterial> ARMOR_MATERIAL = null;
 
 	@SubscribeEvent
@@ -31,17 +31,17 @@ public abstract class DiaperSkullAUsedItem extends ArmorItem {
 				map.put(ArmorItem.Type.CHESTPLATE, 0);
 				map.put(ArmorItem.Type.HELMET, 0);
 				map.put(ArmorItem.Type.BODY, 0);
-			}), 54, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("cbgirl:used_white_skull"))), 3f, 0.3f);
-			registerHelper.register(ResourceLocation.parse("cbgirl:diaper_skull_a_used"), armorMaterial);
+			}), 54, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("cbgirl:used_bio"))), 3f, 0.3f);
+			registerHelper.register(ResourceLocation.parse("cbgirl:diaper_bio_mass_a_used"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
 	}
 
-	public DiaperSkullAUsedItem(ArmorItem.Type type, Item.Properties properties) {
+	public DiaperBioMassAUsedItem(ArmorItem.Type type, Item.Properties properties) {
 		super(ARMOR_MATERIAL, type, properties);
 	}
 
-	public static class Leggings extends DiaperSkullAUsedItem {
+	public static class Leggings extends DiaperBioMassAUsedItem {
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(5)));
 		}
