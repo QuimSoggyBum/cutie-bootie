@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "tag": "minecraft:wool"
+    },
+    "c": {
+      "tag": "minecraft:small_flowers"
+    }
+  },
+  "result": {
+    "id": "cbgirl:diaper_pridev_1",
+    "count": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "tag": "minecraft:wool"
+    },
+    "c": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "id": "cbgirl:diaper_classico",
+    "count": 4
+  }
+}

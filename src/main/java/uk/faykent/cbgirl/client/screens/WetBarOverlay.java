@@ -7,7 +7,6 @@ import uk.faykent.cbgirl.procedures.WetLevel3Procedure;
 import uk.faykent.cbgirl.procedures.WetLevel2Procedure;
 import uk.faykent.cbgirl.procedures.WetLevel1Procedure;
 import uk.faykent.cbgirl.procedures.WetBarDisplayOverlayIngameProcedure;
-import uk.faykent.cbgirl.procedures.UpdatetextProcedure;
 
 import org.checkerframework.checker.units.qual.h;
 
@@ -80,9 +79,6 @@ public class WetBarOverlay {
 			if (WetLevel6Procedure.execute(entity)) {
 				event.getGuiGraphics().blit(ResourceLocation.parse("cbgirl:textures/screens/wetfull.png"), w - 23, h - 63, 0, 0, 16, 16, 16, 16);
 			}
-			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
-
-					UpdatetextProcedure.execute(entity), w / 2 + -3, 8, -1, false);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

@@ -8,9 +8,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.Component;
 
 import javax.annotation.Nullable;
 
@@ -35,8 +33,6 @@ public class UpdateStatsProcedure {
 					_vars.overlay_min = entity.getPersistentData().getDouble("wetCount");
 					_vars.syncPlayerVariables(entity);
 				}
-				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal((entity.getData(CbgirlModVariables.PLAYER_VARIABLES).overlay_min + " : " + entity.getPersistentData().getDouble("wetCount"))), true);
 			}
 			if (!(entity.getData(CbgirlModVariables.PLAYER_VARIABLES).overlay_nappy_on == entity.getPersistentData().getBoolean("NappyOn"))) {
 				{
