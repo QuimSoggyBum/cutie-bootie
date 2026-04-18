@@ -1,4 +1,9 @@
+![Logo](https://raw.githubusercontent.com/QuimSoggyBum/cutie-bootie/refs/heads/main/core/pill-logo.png)
+
 # cutie-bootie
+
+![Main](https://raw.githubusercontent.com/QuimSoggyBum/cutie-bootie/refs/heads/main/core/cutiebootie.png)
+
 This mod is a ABDL related add-on for NappyCraft
 
 This mod enables us ABDL's have diapers that look like our brands and make us feel included
