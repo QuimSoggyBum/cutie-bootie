@@ -3,6 +3,11 @@
  */
 package uk.faykent.cbgirl.init;
 
+import uk.faykent.cbgirl.item.PackOfRearzRebelItem;
+import uk.faykent.cbgirl.item.PackOfCutieBootiesPrideV1Item;
+import uk.faykent.cbgirl.item.PackOfClassicoV2Item;
+import uk.faykent.cbgirl.item.PackOfCammiePinksItem;
+import uk.faykent.cbgirl.item.PackOfCammieBlueItem;
 import uk.faykent.cbgirl.item.DiaperSkullUsedItem;
 import uk.faykent.cbgirl.item.DiaperSkullItem;
 import uk.faykent.cbgirl.item.DiaperSkullAUsedItem;
@@ -60,6 +65,12 @@ public class CbgirlModItems {
 	public static final DeferredItem<Item> DIAPER_BIO_MASS_USED = REGISTRY.register("diaper_bio_mass_used", DiaperBioMassUsedItem::new);
 	public static final DeferredItem<Item> DIAPER_BIO_MASS_A_LEGGINGS = REGISTRY.register("diaper_bio_mass_a_leggings", DiaperBioMassAItem.Leggings::new);
 	public static final DeferredItem<Item> DIAPER_BIO_MASS_A_USED_LEGGINGS = REGISTRY.register("diaper_bio_mass_a_used_leggings", DiaperBioMassAUsedItem.Leggings::new);
+	public static final DeferredItem<Item> PACK_OF_CAMMIE_PINKS = REGISTRY.register("pack_of_cammie_pinks", PackOfCammiePinksItem::new);
+	public static final DeferredItem<Item> PACK_OF_CAMMIE_BLUE = REGISTRY.register("pack_of_cammie_blue", PackOfCammieBlueItem::new);
+	public static final DeferredItem<Item> PACK_OF_REARZ_REBEL = REGISTRY.register("pack_of_rearz_rebel", PackOfRearzRebelItem::new);
+	public static final DeferredItem<Item> PACK_OF_CUTIE_BOOTIES_PRIDE_V_1 = REGISTRY.register("pack_of_cutie_booties_pride_v_1", PackOfCutieBootiesPrideV1Item::new);
+	public static final DeferredItem<Item> PACK_OF_CLASSICO_V_2 = REGISTRY.register("pack_of_classico_v_2", PackOfClassicoV2Item::new);
+	public static final DeferredItem<Item> PACK_OF_BIO_MASS = REGISTRY.register("pack_of_bio_mass", PackOfBioMassItem::new);
 	// Start of user code block custom items
 	// End of user code block custom items
 }
