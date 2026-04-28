@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cbgirl:pack_of_rearz_rebel"
+    }
+  ],
+  "result": {
+    "id": "cbgirl:diaper_skull",
+    "count": 9
+  }
+}

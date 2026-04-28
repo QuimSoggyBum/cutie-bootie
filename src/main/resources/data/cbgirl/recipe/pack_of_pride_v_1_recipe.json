@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "cbgirl:diaper_pridev_1"
+    }
+  },
+  "result": {
+    "id": "cbgirl:pack_of_cutie_booties_pride_v_1",
+    "count": 1
+  }
+}

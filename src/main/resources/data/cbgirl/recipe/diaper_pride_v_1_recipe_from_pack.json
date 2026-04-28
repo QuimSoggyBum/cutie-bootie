@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cbgirl:pack_of_cutie_booties_pride_v_1"
+    }
+  ],
+  "result": {
+    "id": "cbgirl:diaper_pridev_1",
+    "count": 9
+  }
+}

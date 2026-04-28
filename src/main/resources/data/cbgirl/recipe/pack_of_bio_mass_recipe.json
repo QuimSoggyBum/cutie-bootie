@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "cbgirl:diaper_bio_mass"
+    }
+  },
+  "result": {
+    "id": "cbgirl:pack_of_bio_mass",
+    "count": 1
+  }
+}

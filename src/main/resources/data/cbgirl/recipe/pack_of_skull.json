@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "cbgirl:diaper_skull"
+    }
+  },
+  "result": {
+    "id": "cbgirl:pack_of_rearz_rebel",
+    "count": 1
+  }
+}

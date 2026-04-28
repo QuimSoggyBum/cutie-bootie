@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cbgirl:pack_of_bio_mass"
+    }
+  ],
+  "result": {
+    "id": "cbgirl:diaper_bio_mass",
+    "count": 9
+  }
+}

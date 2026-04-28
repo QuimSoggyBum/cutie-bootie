@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cbgirl:pack_of_classico_v_2"
+    }
+  ],
+  "result": {
+    "id": "cbgirl:diaper_classico",
+    "count": 9
+  }
+}

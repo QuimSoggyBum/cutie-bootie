@@ -7,17 +7,12 @@ import uk.faykent.cbgirl.CbgirlMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class CbgirlModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CbgirlMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CUTIE_BOOTIE = REGISTRY.register("cutie_bootie",
@@ -35,11 +30,4 @@ public class CbgirlModTabs {
 				tabData.accept(CbgirlModItems.PACK_OF_CLASSICO_V_2.get());
 				tabData.accept(CbgirlModItems.PACK_OF_BIO_MASS.get());
 			}).withSearchBar().build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(CbgirlModItems.DIAPER_CAMMIE_PINK_A_LEGGINGS.get());
-		}
-	}
 }

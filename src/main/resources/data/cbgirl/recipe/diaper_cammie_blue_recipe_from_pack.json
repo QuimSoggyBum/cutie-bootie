@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cbgirl:pack_of_cammie_blue"
+    }
+  ],
+  "result": {
+    "id": "cbgirl:diaper_cammie_blue",
+    "count": 9
+  }
+}

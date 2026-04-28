@@ -8,6 +8,7 @@ import uk.faykent.cbgirl.item.PackOfCutieBootiesPrideV1Item;
 import uk.faykent.cbgirl.item.PackOfClassicoV2Item;
 import uk.faykent.cbgirl.item.PackOfCammiePinksItem;
 import uk.faykent.cbgirl.item.PackOfCammieBlueItem;
+import uk.faykent.cbgirl.item.PackOfBioMassItem;
 import uk.faykent.cbgirl.item.DiaperSkullUsedItem;
 import uk.faykent.cbgirl.item.DiaperSkullItem;
 import uk.faykent.cbgirl.item.DiaperSkullAUsedItem;
