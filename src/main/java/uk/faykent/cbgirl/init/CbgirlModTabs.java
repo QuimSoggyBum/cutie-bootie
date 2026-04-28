@@ -29,5 +29,6 @@ public class CbgirlModTabs {
 				tabData.accept(CbgirlModItems.PACK_OF_CUTIE_BOOTIES_PRIDE_V_1.get());
 				tabData.accept(CbgirlModItems.PACK_OF_CLASSICO_V_2.get());
 				tabData.accept(CbgirlModItems.PACK_OF_BIO_MASS.get());
+				tabData.accept(CbgirlModItems.CUTIE_BOOTIE_BOOSTERS.get());
 			}).withSearchBar().build());
 }

@@ -33,6 +33,7 @@ import uk.faykent.cbgirl.item.DiaperBioMassUsedItem;
 import uk.faykent.cbgirl.item.DiaperBioMassItem;
 import uk.faykent.cbgirl.item.DiaperBioMassAUsedItem;
 import uk.faykent.cbgirl.item.DiaperBioMassAItem;
+import uk.faykent.cbgirl.item.CutieBootieBoostersItem;
 import uk.faykent.cbgirl.CbgirlMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -72,6 +73,7 @@ public class CbgirlModItems {
 	public static final DeferredItem<Item> PACK_OF_CUTIE_BOOTIES_PRIDE_V_1 = REGISTRY.register("pack_of_cutie_booties_pride_v_1", PackOfCutieBootiesPrideV1Item::new);
 	public static final DeferredItem<Item> PACK_OF_CLASSICO_V_2 = REGISTRY.register("pack_of_classico_v_2", PackOfClassicoV2Item::new);
 	public static final DeferredItem<Item> PACK_OF_BIO_MASS = REGISTRY.register("pack_of_bio_mass", PackOfBioMassItem::new);
+	public static final DeferredItem<Item> CUTIE_BOOTIE_BOOSTERS = REGISTRY.register("cutie_bootie_boosters", CutieBootieBoostersItem::new);
 	// Start of user code block custom items
 	// End of user code block custom items
 }
