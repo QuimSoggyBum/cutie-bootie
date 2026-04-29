@@ -1,6 +1,3 @@
-/*
- *    MCreator note: This file will be REGENERATED on each build.
- */
 package uk.faykent.cbgirl.init;
 
 import uk.faykent.cbgirl.CbgirlMod;

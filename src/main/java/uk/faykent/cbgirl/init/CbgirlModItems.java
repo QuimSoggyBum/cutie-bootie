@@ -1,6 +1,3 @@
-/*
- *    MCreator note: This file will be REGENERATED on each build.
- */
 package uk.faykent.cbgirl.init;
 
 import uk.faykent.cbgirl.item.PackOfRearzRebelItem;
@@ -74,6 +71,4 @@ public class CbgirlModItems {
 	public static final DeferredItem<Item> PACK_OF_CLASSICO_V_2 = REGISTRY.register("pack_of_classico_v_2", PackOfClassicoV2Item::new);
 	public static final DeferredItem<Item> PACK_OF_BIO_MASS = REGISTRY.register("pack_of_bio_mass", PackOfBioMassItem::new);
 	public static final DeferredItem<Item> CUTIE_BOOTIE_BOOSTERS = REGISTRY.register("cutie_bootie_boosters", CutieBootieBoostersItem::new);
-	// Start of user code block custom items
-	// End of user code block custom items
 }
