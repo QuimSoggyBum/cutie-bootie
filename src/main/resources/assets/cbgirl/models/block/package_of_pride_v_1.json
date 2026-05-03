@@ -1,0 +1,9 @@
+{
+  "parent": "cbgirl:custom/diaperpackage",
+  "textures": {
+    "all": "cbgirl:block/cutiebootie_package_pride",
+    "particle": "cbgirl:block/cutiebootie_package_pride",
+    "1": "cbgirl:block/cutiebootie_package_pride"
+  },
+  "render_type": "cutout"
+}

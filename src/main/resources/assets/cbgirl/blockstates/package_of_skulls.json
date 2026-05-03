@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cbgirl:block/package_of_skulls"
+    },
+    "facing=east": {
+      "model": "cbgirl:block/package_of_skulls",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cbgirl:block/package_of_skulls",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cbgirl:block/package_of_skulls",
+      "y": 270
+    }
+  }
+}

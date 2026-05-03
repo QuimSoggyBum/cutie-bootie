@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cbgirl:block/package_of_pride_v_1"
+    },
+    "facing=east": {
+      "model": "cbgirl:block/package_of_pride_v_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cbgirl:block/package_of_pride_v_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cbgirl:block/package_of_pride_v_1",
+      "y": 270
+    }
+  }
+}

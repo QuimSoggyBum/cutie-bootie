@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cbgirl:package_of_skulls"
+    }
+  ],
+  "result": {
+    "id": "cbgirl:pack_of_rearz_rebel",
+    "count": 9
+  }
+}

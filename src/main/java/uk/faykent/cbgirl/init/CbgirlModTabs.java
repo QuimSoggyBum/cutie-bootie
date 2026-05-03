@@ -27,5 +27,12 @@ public class CbgirlModTabs {
 				tabData.accept(CbgirlModItems.PACK_OF_CLASSICO_V_2.get());
 				tabData.accept(CbgirlModItems.PACK_OF_BIO_MASS.get());
 				tabData.accept(CbgirlModItems.CUTIE_BOOTIE_BOOSTERS.get());
+				tabData.accept(CbgirlModBlocks.PACKAGE_OF_CAMMIES_PINK.get().asItem());
+				tabData.accept(CbgirlModBlocks.PACKAGE_OF_CAMMIES_BLUE.get().asItem());
+				tabData.accept(CbgirlModBlocks.PACKAGE_OF_SKULLS.get().asItem());
+				tabData.accept(CbgirlModBlocks.PACKAGE_OF_PRIDE_V_1.get().asItem());
+				tabData.accept(CbgirlModBlocks.PACKAGE_OF_BIO_MASS.get().asItem());
+				tabData.accept(CbgirlModBlocks.PACKAGE_OF_CLASSICO.get().asItem());
+				tabData.accept(CbgirlModItems.DIAPER_SACK.get());
 			}).withSearchBar().build());
 }

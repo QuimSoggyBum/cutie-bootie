@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "cbgirl:pack_of_cammie_blue"
+    }
+  },
+  "result": {
+    "id": "cbgirl:package_of_cammies_blue",
+    "count": 1
+  }
+}

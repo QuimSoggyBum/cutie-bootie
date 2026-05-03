@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cbgirl:block/package_of_bio_mass"
+    },
+    "facing=east": {
+      "model": "cbgirl:block/package_of_bio_mass",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cbgirl:block/package_of_bio_mass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cbgirl:block/package_of_bio_mass",
+      "y": 270
+    }
+  }
+}

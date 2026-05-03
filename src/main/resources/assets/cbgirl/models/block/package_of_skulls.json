@@ -1,0 +1,9 @@
+{
+  "parent": "cbgirl:custom/diaperpackage",
+  "textures": {
+    "all": "cbgirl:block/skull_package",
+    "particle": "cbgirl:block/skull_package",
+    "1": "cbgirl:block/skull_package"
+  },
+  "render_type": "cutout"
+}

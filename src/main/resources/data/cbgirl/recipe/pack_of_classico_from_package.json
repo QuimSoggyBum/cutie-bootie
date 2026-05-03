@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cbgirl:package_of_classico"
+    }
+  ],
+  "result": {
+    "id": "cbgirl:pack_of_classico_v_2",
+    "count": 9
+  }
+}

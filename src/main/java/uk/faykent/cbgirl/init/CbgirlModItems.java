@@ -10,6 +10,8 @@ import uk.faykent.cbgirl.item.DiaperSkullUsedItem;
 import uk.faykent.cbgirl.item.DiaperSkullItem;
 import uk.faykent.cbgirl.item.DiaperSkullAUsedItem;
 import uk.faykent.cbgirl.item.DiaperSkullAItem;
+import uk.faykent.cbgirl.item.DiaperSackUsedItem;
+import uk.faykent.cbgirl.item.DiaperSackItem;
 import uk.faykent.cbgirl.item.DiaperPridev1UsedItem;
 import uk.faykent.cbgirl.item.DiaperPridev1Item;
 import uk.faykent.cbgirl.item.DiaperPridev1AUsedItem;
@@ -35,8 +37,11 @@ import uk.faykent.cbgirl.CbgirlMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 public class CbgirlModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(CbgirlMod.MODID);
@@ -71,4 +76,22 @@ public class CbgirlModItems {
 	public static final DeferredItem<Item> PACK_OF_CLASSICO_V_2 = REGISTRY.register("pack_of_classico_v_2", PackOfClassicoV2Item::new);
 	public static final DeferredItem<Item> PACK_OF_BIO_MASS = REGISTRY.register("pack_of_bio_mass", PackOfBioMassItem::new);
 	public static final DeferredItem<Item> CUTIE_BOOTIE_BOOSTERS = REGISTRY.register("cutie_bootie_boosters", CutieBootieBoostersItem::new);
+	public static final DeferredItem<Item> PACKAGE_OF_CAMMIES_PINK = block(CbgirlModBlocks.PACKAGE_OF_CAMMIES_PINK);
+	public static final DeferredItem<Item> PACKAGE_OF_CAMMIES_BLUE = block(CbgirlModBlocks.PACKAGE_OF_CAMMIES_BLUE);
+	public static final DeferredItem<Item> PACKAGE_OF_SKULLS = block(CbgirlModBlocks.PACKAGE_OF_SKULLS);
+	public static final DeferredItem<Item> PACKAGE_OF_PRIDE_V_1 = block(CbgirlModBlocks.PACKAGE_OF_PRIDE_V_1);
+	public static final DeferredItem<Item> PACKAGE_OF_BIO_MASS = block(CbgirlModBlocks.PACKAGE_OF_BIO_MASS);
+	public static final DeferredItem<Item> PACKAGE_OF_CLASSICO = block(CbgirlModBlocks.PACKAGE_OF_CLASSICO);
+	public static final DeferredItem<Item> DIAPER_SACK = REGISTRY.register("diaper_sack", DiaperSackItem::new);
+	public static final DeferredItem<Item> DIAPER_SACK_USED = REGISTRY.register("diaper_sack_used", DiaperSackUsedItem::new);
+
+	// Start of user code block custom items
+	// End of user code block custom items
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
+		return block(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
+	}
 }

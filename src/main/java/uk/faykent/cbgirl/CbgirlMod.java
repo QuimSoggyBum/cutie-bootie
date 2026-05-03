@@ -3,6 +3,7 @@ package uk.faykent.cbgirl;
 import uk.faykent.cbgirl.network.CbgirlModVariables;
 import uk.faykent.cbgirl.init.CbgirlModTabs;
 import uk.faykent.cbgirl.init.CbgirlModItems;
+import uk.faykent.cbgirl.init.CbgirlModBlocks;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -39,6 +40,8 @@ public class CbgirlMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		CbgirlModBlocks.REGISTRY.register(modEventBus);
 
 		CbgirlModItems.REGISTRY.register(modEventBus);
 

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "cbgirl:pack_of_classico_v_2"
+    }
+  },
+  "result": {
+    "id": "cbgirl:package_of_classico",
+    "count": 1
+  }
+}

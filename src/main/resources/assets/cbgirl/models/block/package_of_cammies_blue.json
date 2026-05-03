@@ -1,0 +1,9 @@
+{
+  "parent": "cbgirl:custom/diaperpackage",
+  "textures": {
+    "all": "cbgirl:block/cammies_blue_package",
+    "particle": "cbgirl:block/cammies_blue_package",
+    "1": "cbgirl:block/cammies_blue_package"
+  },
+  "render_type": "cutout"
+}

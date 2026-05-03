@@ -46,5 +46,15 @@
   "item.cbgirl.cutie_bootie_boosters": "Cutie Bootie Boosters",
   "item.cbgirl.booster.diaperused": "Sadly you are unable to use a booster on a fully used diaper.",
   "item.cbgirl.booster.diaperdry": "Come on now silly bum, this diaper is already dry you don\u0027t need to use that right now.",
-  "chat.cbgirl.title": "§c[§5Cutie Bootie§c]§f: §r"
+  "chat.cbgirl.title": "§c[§5Cutie Bootie§c]§f: §r",
+  "block.cbgirl.package_of_cammies_pink": "Package Of Cammies Pink",
+  "block.cbgirl.package_of_cammies_blue": "Package Of Cammies Blue",
+  "block.cbgirl.package_of_skulls": "Package Of Rearz Rebel",
+  "block.cbgirl.package_of_pride_v_1": "Package Of Cutie Bootie Pride V1",
+  "block.cbgirl.package_of_bio_mass": "Package Of Cutie Bootie Bio-Mass",
+  "block.cbgirl.package_of_classico": "Package Of Classico",
+  "item.cbgirl.diaper_sack": "Diaper Sack",
+  "item.cbgirl.diaper_sack.description_0": "This is a diaper sack, this removes the diaper",
+  "item.cbgirl.diaper_sack_used.description_0": "This is a used diaper sack from a dirty diaper",
+  "item.cbgirl.diaper_sack_used": "Diaper Sack Used"
 }
